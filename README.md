@@ -1,2 +1,2 @@
 # Oops-Homepage
-Oops-Homepage是一款基于Material You规范的个人主页。
+Oops-Homepage 是基于 Material You 设计规范制作的静态引导页
