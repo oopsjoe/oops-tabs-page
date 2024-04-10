@@ -2,11 +2,11 @@
   <br>
   <img src="https://github.com/oopsjoe/oops-homepage/assets/107075016/ed4c3420-a480-4e7e-baae-d4ab257ef437" width="150"/>
   <br>
-  Oops Joe
+  Oops Page 个人引导页
   <br>
 </h1>
 
-<h4 align="center">Oops Page 个人引导页</h4>
+<h4 align="center">Oops Joe </h4>
 <h4 align="center">这是一个基于Material You风格设计的静态个人引导页</h4>
 <p align="center">
 	<img alt="Using GPL-v3" src="https://img.shields.io/github/license/oopsjoe/oops-homepage">
