@@ -2,7 +2,7 @@
   <br>
   <img src="https://github.com/oopsjoe/oops-homepage/assets/107075016/ed4c3420-a480-4e7e-baae-d4ab257ef437" width="150"/>
   <br>
-  Oops Page 个人引导页
+  Oops Tab Page
   <br>
 </h1>
 
