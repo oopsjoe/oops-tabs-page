@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="mdui-theme-auto">
+
+<head>
+    <!-- 基础配置 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- MDUI 前端组件库 -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+
+    <!-- Material Icons 图标库 -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- fontawesome 图标库 -->
+    <script src="https://kit.fontawesome.com/0e94d9ce92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS 样式 -->
+    <link rel="stylesheet" href="./_css/content.css">
+    <link rel="stylesheet" href="./_css/footer.css">
+    <link rel="stylesheet" href="./_css/info.css">
+    <link rel="stylesheet" href="./_css/left.css">
+    <link rel="stylesheet" href="./_css/nav.css">
+    <link rel="stylesheet" href="./_css/night-day.css">
+    <link rel="stylesheet" href="./_css/preloader.css">
+    <link rel="stylesheet" href="./_css/right.css">
+    <link rel="stylesheet" href="./_css/search.css">
+    <link rel="stylesheet" href="./_css/style.css">
+    <link rel="stylesheet" href="./_css/theme.css">
+
+    <!-- JavaScript 样式 -->
+    <script src="./_javacript/loader.js"></script>
+    <script src="./_javacript/content.js"></script>
+
+    <!-- title 标题 -->
+    <title>Oops Joe - Home</title>
+</head>
+
+<body>
+    <!-- 预加载动画 -->
+    <div class="box">
+        <div class="cat">
+            <div class="cat__body"></div>
+            <div class="cat__body"></div>
+            <div class="cat__tail"></div>
+            <div class="cat__head"></div>
+        </div>
+    </div>
+    <header>
+
+    </header>
+
+    <main class="frame">
+
+        <div class="left">
+
+            <!-- 搜索框 -->
+            <form action="https://www.google.com/search" method="get">
+                <mdui-text-field class="search" label="Search" clearable name="q">
+                    <mdui-button-icon slot="icon">
+                        <i class="fab fa-google"></i>
+                    </mdui-button-icon>
+                    <mdui-button-icon slot="end-icon" icon="search"></mdui-button-icon>
+                </mdui-text-field>
+            </form>
+
+            <!-- 左侧卡片容器 -->
+            <mdui-card class="info" variant="elevated">
+                <div class="logo">
+                    <img src="./_images/avatar.svg" alt="">
+                </div>
+                <h1>Oops Joe</h1>
+                <p>这是一个遵循 Material You 设计规范的引导页面</p>
+                <mdui-button class="about" variant="elevated">
+                    <p>About Me(开发中)</p>
+                </mdui-button>
+                <div class="social-media">
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-bilibili"></i></a>
+                </div>
+            </mdui-card>
+        </div>
+
+        <!-- 右侧卡片容器 -->
+
+        <mdui-card class="right" variant="elevated">
+            <!-- 右侧导航栏 -->
+            <ul id="nav">
+                <!-- 设置菜单 -->
+                <li class="menu">
+                    <i class="material-symbols-outlined">menu</i>
+                </li>
+                <div class="slide1"></div>
+                <div class="slide2"></div>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">书签</a></li>
+                <li><a href="#">开发中</a></li>
+                <li><a href="#">开发中</a></li>
+                <a href="#">0.1.1-alpha.1</a>
+                <!-- 黑暗模式开关 -->
+                <label class="night-day-toggle day">
+                    <input type="checkbox" />
+                    <div class="planet">
+                        <div class="moon">
+                            <div class="crater crater-1"></div>
+                            <div class="crater crater-2"></div>
+                            <div class="crater crater-3"></div>
+                            <div class="crater crater-4"></div>
+                            <div class="crater crater-5"></div>
+                        </div>
+                        <div class="sun"></div>
+                    </div>
+                    <div class="sky sky-night">
+                        <svg class="star star-1" width="12" height="12" viewBox="0 0 24 24">
+                            <path
+                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                            </path>
+                        </svg>
+                        <svg class="star star-2" width="10" height="10" viewBox="0 0 24 24">
+                            <path
+                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                            </path>
+                        </svg>
+                        <svg class="star star-3" width="8" height="8" viewBox="0 0 24 24">
+                            <path
+                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                            </path>
+                        </svg>
+                        <svg class="star star-4" width="6" height="6" viewBox="0 0 24 24">
+                            <path
+                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                            </path>
+                        </svg>
+                        <svg class="star star-5" width="4" height="4" viewBox="0 0 24 24">
+                            <path
+                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="sky sky-day">
+                        <div class="cloud cloud-1">
+                            <div class="cloud-bubble cloud-bubble-1"></div>
+                            <div class="cloud-bubble cloud-bubble-2"></div>
+                            <div class="cloud-bubble cloud-bubble-3"></div>
+                            <div class="cloud-bubble cloud-bubble-4"></div>
+                            <div class="cloud-bubble cloud-bubble-5"></div>
+                        </div>
+                        <div class="cloud cloud-2">
+                            <div class="cloud-bubble cloud-bubble-1"></div>
+                            <div class="cloud-bubble cloud-bubble-2"></div>
+                            <div class="cloud-bubble cloud-bubble-3"></div>
+                            <div class="cloud-bubble cloud-bubble-4"></div>
+                            <div class="cloud-bubble cloud-bubble-5"></div>
+                        </div>
+                        <div class="cloud cloud-3">
+                            <div class="cloud-bubble cloud-bubble-1"></div>
+                            <div class="cloud-bubble cloud-bubble-2"></div>
+                            <div class="cloud-bubble cloud-bubble-3"></div>
+                            <div class="cloud-bubble cloud-bubble-4"></div>
+                            <div class="cloud-bubble cloud-bubble-5"></div>
+                        </div>
+                        <div class="cloud cloud-4">
+                            <div class="cloud-bubble cloud-bubble-1"></div>
+                            <div class="cloud-bubble cloud-bubble-2"></div>
+                            <div class="cloud-bubble cloud-bubble-3"></div>
+                            <div class="cloud-bubble cloud-bubble-4"></div>
+                            <div class="cloud-bubble cloud-bubble-5"></div>
+                        </div>
+                    </div>
+                </label>
+            </ul>
+
+            <!-- 右侧内容卡片容器 -->
+            <div class="content">
+                <div id="content1">
+
+                    <h2>闲言碎语</h2>
+                    <mdui-divider class="line" middle></mdui-divider>
+                    <p>
+                        2024年3月8日，我本来只是想部署一个wordpress写笔记用，但我完全不懂web语言，用了别人的模板想改样式却看不懂也不会改。索性开始学习前端。
+                        <br><br>
+                        2024年3月11日开始学习前端。
+                        <br><br>
+                        今天是2024年4月11日，我写出了第一个自己的静态主页（虽然有一些内容还没填充）。
+                    </p>
+
+                </div>
+
+                <div id="content2">
+                    <mdui-card href="https://strangejoe.com/" target="_blank">
+                        <img src="./_images/link1.png" alt="homepage" />
+                        <p>首页</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+
+                    <mdui-card href="#" target="_blank">
+                        <img src="./_images/no-found.png" alt="" />
+                        <p>空</p>
+                    </mdui-card>
+                </div>
+
+                <div id="content3">
+                    <p>卡片定位测试3</p>
+                </div>
+
+                <div id="content4">
+                    <p>卡片定位测试4</p>
+                </div>
+            </div>
+        </mdui-card>
+    </main>
+
+
+    <footer>
+        <!-- 版权信息 -->
+        <div class="footer">
+            <a href="https://beian.miit.gov.cn/">京ICP备2022001982号</a>
+            <p>Copyright © 2024-present</p>
+            <a href="https://strangejoe.com/">Oops Joe</a>
+        </div>
+    </footer>
+
+    <!-- 菜单栏动画 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./_javacript/menu.js"></script>
+    <script src="./_javacript/light-dark.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+/* ----- 内容容器全局样式 ----- */
+.content {
+    margin: 22px 20px 20px 20px;
+}
+
+/* ----- 内容容器1样式 ----- */
+#content1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----- 内容容器1标题 ----- */
+#content1 h2 {
+    margin-bottom: 20px;
+}
+
+/* ----- 内容容器1分割线 ----- */
+#content1 .line {
+    background-color: var(--line-day);
+}
+
+/* ----- 内容容器1文本 ----- */
+#content1 p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* ----- 内容容器2样式 ----- */
+#content2 {
+    width: 560px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+/* ----- weblist卡片样式 ----- */
+#content2 mdui-card {
+    display: flex;
+    padding: 5px;
+    width: 125px;
+    height: 80px;
+    border-radius: 0.75rem;
+    background-color: var(--weblist-day);
+    text-align: center;
+}
+
+body.night-theme #content2 mdui-card {
+    background-color: var(--weblist-night);
+}
+
+/* ----- 卡片内图标样式 ----- */
+#content2 mdui-card img {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+}
+
+/* ----- 卡片内文本样式 ----- */
+#content2 mdui-card p {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 300;
+}

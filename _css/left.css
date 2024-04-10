@@ -1,0 +1,6 @@
+/* ----- 左侧容器样式 ----- */
+.left {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}

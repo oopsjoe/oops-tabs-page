@@ -1,0 +1,99 @@
+/* ----- 全局样式 ----- */
+* {
+    margin: 0;
+    /* 清除默认外边距 */
+
+    padding: 0;
+    /* 清除默认内边距 */
+
+    box-sizing: border-box;
+    /* 清除浮动 */
+
+    font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* 默认字体库 */
+}
+
+li {
+    list-style: none;
+    /* 清除li标签的默认样式 */
+}
+
+a {
+    text-decoration: none;
+    /* 清除a标签的默认样式 */
+}
+
+/* ----- 框架样式 ----- */
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ----- body默认样式 ----- */
+body {
+    background-color: var(--bd-day);
+}
+
+body.night-theme  {
+    background-color: var(--bd-night);
+}
+
+/* ----- text类默认样式 ----- */
+a {
+    color: var(--a-day);
+}
+
+body.night-theme a {
+    color: var(--a-night);
+}
+
+p {
+    color: var(--p-day);
+}
+
+body.night-theme p {
+    color: var(--p-night);
+}
+
+span {
+    color: var(--span-day);
+}
+
+body.night-theme span {
+    color: var(--span-night);
+}
+
+i {
+    color: var(--icon-day);
+}
+
+body.night-theme i {
+    color: var(--icon-night);
+}
+
+h1 {
+    color: var(--h1-day);
+}
+
+body.night-theme h1 {
+    color: var(--h1-night);
+}
+
+h2 {
+    color: var(--h2-day);
+}
+
+body.night-theme h2 {
+    color: var(--h2-night);
+}
+
+/* ----- 版权信息 ----- */
+
+/*
+
+ * Copyright © 2024-present Oops Joe
+ * All rights reserved.
+
+ */

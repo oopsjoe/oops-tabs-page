@@ -1,0 +1,86 @@
+/* ----- 导航栏样式 ----- */
+#nav {
+    position: relative;
+    border: none;
+    padding: 12px 20px;
+    height: 54px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 0.5px 1.5px 0px, rgba(0, 0, 0, 0.04) 0px 0px 1px 0px;
+    align-items: center;
+    background-color: var(--nav-day);
+}
+
+body.night-theme #nav {
+    background-color: var(--nav-night);
+}
+
+/* ----- 导航栏菜单按钮 ----- */
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 12px 5px 12px 0px;
+}
+
+.menu i {
+    font-size: 22.88px;
+    transform: translateY(1px);
+}
+
+/* ----- 导航栏列表样式 ----- */
+#nav li {
+    margin-right: 10px;
+}
+
+/* ----- 导航栏文本样式 ----- */
+#nav li a {
+    position: relative;
+    padding: 12px 5px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 3;
+}
+
+/*
+引用自作品：https://www.bilibili.com/read/cv28610461/?spm_id_from=333.999.0.0
+作者主页：https://space.bilibili.com/266664645
+引用并标注他人作品的出处是一种尊重原作者创作权和劳动成果的行为，体现了职业道德和责任感。
+*/
+
+/* ----- 导航栏动画样式 ----- */
+.slide1,
+.slide2 {
+    position: absolute;
+    display: inline-block;
+    height: 30px;
+    border-radius: 0.5rem;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+}
+
+.slide1 {
+    background-color: var(--slide-focus-day);
+    box-shadow: var(--slide-focus-sd-day);
+    z-index: 2;
+}
+
+body.night-theme .slide1 {
+    background-color: var(--slide-focus-night);
+    box-shadow: var(--slide-focus-sd-night);
+}
+
+.slide2 {
+    opacity: 0;
+    z-index: 1;
+    background-color: var(--slide-day);
+    box-shadow: 0 0 20px #ffffffaa inset;
+}
+
+body.night-theme .slide2 {
+    background-color: var(--slide-night);
+}
+
+.squeeze {
+    transform: scale(0.9);
+}

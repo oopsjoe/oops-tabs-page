@@ -1,0 +1,21 @@
+/* ----- 右侧容器样式 ----- */
+.right[variant="elevated"] {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 600px;
+    height: 476px;
+    background-color: var(--right-day);
+    text-align: center;
+}
+
+body.night-theme .right[variant="elevated"] {
+    background-color: var(--right-night);
+}
+
+/* ----- 右侧容器响应式设置 ----- */
+@media (max-width: 960px) {
+    .right[variant="elevated"] {
+        display: none;
+    }
+}

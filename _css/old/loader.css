@@ -1,0 +1,115 @@
+.cat {
+    position: relative;
+    width: 100%;
+    max-width: 20em;
+    overflow: hidden;
+    background-color: #e6dcdc;
+}
+
+.cat::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.cat:hover>*,
+.cat:active>* {
+    animation-play-state: paused;
+}
+
+.cat__head,
+.cat__tail,
+.cat__body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: rotating 2.79s cubic-bezier(.65, .54, .12, .93) infinite;
+}
+
+.cat__head::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.weserv.nl/?url=i.imgur.com/M1raXX3.png&il');
+    top: -1px;
+    right: -1px;
+    background-position: 100% 0%;
+    transform-origin: 0% 100%;
+    transform: rotate(90deg);
+}
+
+.cat__tail::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.weserv.nl/?url=i.imgur.com/M1raXX3.png&il');
+    left: 0;
+    bottom: 0;
+    background-position: 0% 100%;
+    transform-origin: 100% 0%;
+    transform: rotate(-30deg);
+}
+
+.cat__body::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.weserv.nl/?url=i.imgur.com/M1raXX3.png&il');
+    right: 0;
+    bottom: 0;
+    background-position: 100% 100%;
+    transform-origin: 0% 0%;
+}
+
+/* .cat__body {
+    animation-delay: .1s;
+}
+
+.cat__body:nth-of-type(2) {
+    animation-delay: .2s;
+} */
+
+@keyframes rotating {
+    from {
+        transform: rotate(720deg);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.box.fadeOut {
+    animation: fadeOut 1s ease forwards;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6dcdc;
+    z-index: 1000;
+}

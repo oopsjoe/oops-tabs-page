@@ -1,0 +1,78 @@
+/* left-main 样式 */
+main .card .left-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 搜索引擎 */
+main .card .left-card mdui-text-field[label="Search"]::part(container) {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: rgb(192, 175, 173) 0px -1.98122px 0px 0px inset;
+}
+
+main .card .left-card mdui-text-field[label="Search"]::part(container):focus-within {
+    box-shadow: rgb(159, 133, 130) 0px -1.98122px 0px 0px inset;
+}
+
+main .card .left-card mdui-text-field[label="Search"]::part(label) {
+    color: #E6DCDB;
+    caret-color: #000;
+}
+
+main .card .left-card mdui-text-field[label="Search"]::part(input) {
+    caret-color: #C0AFAD;
+    color: #9F8582;
+}
+
+/* 个人信息 */
+main .card .left-card mdui-card[variant="elevated"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+
+main .card .left-card mdui-card[variant="elevated"] img {
+    width: 150px;
+    align-self: center;
+}
+
+main .card .left-card mdui-card[variant="elevated"] h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #9F8582;
+}
+
+main .card .left-card mdui-card[variant="elevated"] p {
+    font-size: 15px;
+    color: #9F8582;
+}
+
+main .card .left-card mdui-card[variant="elevated"] mdui-button[variant="elevated"] {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: auto;
+    border-radius: 0.75rem;
+    background-color: #FFFBFB;
+    color: #9F8582;
+    font-weight: 300;
+}
+
+main .card .left-card mdui-card[variant="elevated"] .link {
+    margin-top: 20px;
+}
+
+main .card .left-card mdui-card[variant="elevated"] .link a {
+    font-size: 20px;
+    margin: 5px;
+}

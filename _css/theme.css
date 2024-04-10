@@ -1,0 +1,69 @@
+/* ----- 色彩库 ----- */
+:root {
+
+    /* 亮色主题 day-theme */
+    --bd-day: #e6dcdc;
+    --icon-day: #9E8383;
+    --search-day: #fff;
+    --search-label-day: #B8B0B5;
+    --search-caret-day: #C0B6AE;
+    --search-input-text-day: #9E8F83;
+    --search-sd-day: #B8B0B5;
+    --search-focus-sd-day: #9E8F83;
+    --info-day: #fff;
+    --logo-day: #7F6975;
+    --h1-day: #9E8383;
+    --h2-day: #9E8383;
+    --line-day: #B8B0B5;
+    --a-day: #C0AEAE;
+    --span-day: #C0AEAE;
+    --p-day: #C0AEAE;
+    --botton-day: #D9D6D8;
+    --botton-text-day: #9E8383;
+    --nav-day: #FFFBFB;
+    --content-day: #fff;
+    --weblist-day: #FFFDFB;
+    --slide-day: rgba(192, 175, 173, 0.3);
+    --slide-focus-day: #E6DCDC;
+    --slide-focus-sd-day: 0px -1.98122px 0px 0px rgba(184, 176, 181, 1) inset;;
+    --footer-day: #fff;
+    --right-day: #fff;
+
+    /* 暗色主题 night-theme */
+    --bd-night: #091220;
+    --icon-night: ;
+    --search-night: #384354;
+    --search-label-night: ;
+    --search-caret-night: ;
+    --search-input-text-night: ;
+    --search-sd-night: #1F2938;
+    --search-focus-sd-night: ;
+    --info-night: #384354;
+    --logo-night: ;
+    --h1-night: ;
+    --h2-night: ;
+    --line-night: ;
+    --a-night: ;
+    --span-night: ;
+    --p-night: ;
+    --botton-night: #1F2938;
+    --botton-text-night: #fff;
+    --nav-night: #1F2938;
+    --content-night: #384354;
+    --weblist-night: #24334b;
+    --slide-night: #384354;
+    --slide-focus-night: #384354;
+    --slide-focus-sd-night: 0px -1.98122px 0px 0px rgba(73, 84, 102, 1) inset;
+    --footer-night: #384354;
+    --right-night: #384354;
+
+}
+
+/* ----- 版权信息 ----- */
+
+/*
+
+ * Copyright © 2024-present Oops Joe
+ * All rights reserved.
+
+ */

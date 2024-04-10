@@ -1,0 +1,72 @@
+/* ----- 个人信息容器样式 ----- */
+.info[variant="elevated"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    background-color: var(--info-day);
+    text-align: center;
+}
+
+body.night-theme .info[variant="elevated"] {
+    background-color: var(--info-night);
+}
+
+/* ----- logo样式 ----- */
+.logo {
+    width: 150px;
+    align-self: center;
+    background-image: url('./images/logo.svg');
+}
+
+body.night-theme .logo {
+    background-image: url('./images/night-logo.svg');
+}
+
+/* ----- H1样式 ----- */
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* ----- 个人信息文本样式 ----- */
+.info[variant="elevated"] p {
+    font-size: 15px;
+}
+
+/* ----- aboutme按钮样式 ----- */
+.about[variant="elevated"] {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: auto;
+    border-radius: 0.75rem;
+    background-color: var(--botton-day);
+}
+
+body.night-theme .about[variant="elevated"] {
+    background-color: var(--botton-night);
+}
+
+/* ----- aboutme按钮文本样式 ----- */
+.about[variant="elevated"] p {
+    font-weight: 300;
+    color: var(--botton-text-day);
+}
+
+body.night-theme .about[variant="elevated"] p {
+    color: var(--botton-text-night);
+}
+
+/* ----- 社交媒体容器样式 ----- */
+.social-media {
+    margin-top: 20px;
+}
+
+/* ----- 社交媒体图标样式 ----- */
+.social-media a {
+    font-size: 20px;
+    margin: 5px;
+}
