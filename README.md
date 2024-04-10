@@ -17,5 +17,5 @@
 </p>
 
 
-
-<img src="https://github.com/oopsjoe/oops-homepage/assets/107075016/b9fcbee9-2351-4688-975b-d1a88a880077">
+![web1](https://github.com/oopsjoe/oops-homepage/assets/107075016/56b9f2a5-6dd0-4cdb-af2b-4eaff2449a0e)
+![web2](https://github.com/oopsjoe/oops-homepage/assets/107075016/43aaaaca-e504-4643-b0b2-f520840407e2)
