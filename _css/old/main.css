@@ -1,8 +1,0 @@
-/* main 样式 */
-
-main .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
