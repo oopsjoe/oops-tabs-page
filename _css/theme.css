@@ -31,21 +31,21 @@
 
     /* 暗色主题 night-theme */
     --bd-night: #091220;
-    --icon-night: ;
+    --icon-night: #fff;
     --search-night: #384354;
-    --search-label-night: ;
-    --search-caret-night: ;
-    --search-input-text-night: ;
+    --search-label-night: #fff;
+    --search-caret-night: #fff;
+    --search-input-text-night: #fff;
     --search-sd-night: #1F2938;
-    --search-focus-sd-night: ;
+    --search-focus-sd-night: #fff;
     --info-night: #384354;
-    --logo-night: ;
-    --h1-night: ;
-    --h2-night: ;
-    --line-night: ;
-    --a-night: ;
-    --span-night: ;
-    --p-night: ;
+    --logo-night: #fff;
+    --h1-night: #fff;
+    --h2-night: #fff;
+    --line-night: #fff;
+    --a-night: #fff;
+    --span-night: #fff;
+    --p-night: #fff;
     --botton-night: #1F2938;
     --botton-text-night: #fff;
     --nav-night: #1F2938;
