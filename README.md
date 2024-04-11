@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://github.com/oopsjoe/oops-homepage/assets/107075016/ed4c3420-a480-4e7e-baae-d4ab257ef437" width="150px">
 
-# Oops Tab Page
+# Oops Tabs Page
 </div>
 
 <div align="center">
