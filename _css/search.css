@@ -41,3 +41,11 @@ body.night-theme .search[label="Search"]::part(input) {
     caret-color: var(--search-caret-night);
     color: var(--search-input-text-night);
 }
+
+mdui-button-icon[icon="search"] {
+    color: var(--search-icon-day);
+}
+
+body.night-theme mdui-button-icon[icon="search"] {
+    color: var(--search-icon-night);
+}
