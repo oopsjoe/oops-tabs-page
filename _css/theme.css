@@ -10,6 +10,7 @@
     --search-input-text-day: #9E8F83;
     --search-sd-day: #B8B0B5;
     --search-focus-sd-day: #9E8F83;
+    --search-icon-day: #9E8383;
     --info-day: #fff;
     --logo-day: #7F6975;
     --h1-day: #9E8383;
@@ -25,7 +26,8 @@
     --weblist-day: #FFFDFB;
     --slide-day: rgba(192, 175, 173, 0.3);
     --slide-focus-day: #E6DCDC;
-    --slide-focus-sd-day: 0px -1.98122px 0px 0px rgba(184, 176, 181, 1) inset;;
+    --slide-focus-sd-day: 0px -1.98122px 0px 0px rgba(184, 176, 181, 1) inset;
+    ;
     --footer-day: #fff;
     --right-day: #fff;
 
@@ -38,6 +40,7 @@
     --search-input-text-night: #fff;
     --search-sd-night: #1F2938;
     --search-focus-sd-night: #fff;
+    --search-icon-night: #fff;
     --info-night: #384354;
     --logo-night: #fff;
     --h1-night: #fff;
