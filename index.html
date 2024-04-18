@@ -63,11 +63,11 @@
 
             <!-- 搜索框 -->
             <form action="https://www.google.com/search" method="get">
-                <mdui-text-field class="search" label="Search" clearable name="q">
+                <mdui-text-field class="search" label="Search" clearable name="q" slot="clear-icon">
                     <mdui-button-icon slot="icon">
                         <i class="fab fa-google"></i>
                     </mdui-button-icon>
-                    <mdui-button-icon slot="end-icon" icon="search"></mdui-button-icon>
+                    <mdui-button-icon slot="end-icon" icon="search" type="submit"></mdui-button-icon>
                 </mdui-text-field>
             </form>
 
@@ -77,7 +77,7 @@
                     <img src="./_images/avatar.svg" alt="">
                 </div>
                 <h1>Oops Joe</h1>
-                <p>这是一个遵循 Material You 设计规范的引导页面</p>
+                <p>这是一个 Material You 风格的引导页面</p>
                 <mdui-button class="about" variant="elevated">
                     <p>About Me(开发中)</p>
                 </mdui-button>
@@ -104,7 +104,7 @@
                 <li><a href="#">书签</a></li>
                 <li><a href="#">开发中</a></li>
                 <li><a href="#">开发中</a></li>
-                <a href="#">0.1.1-alpha.1</a>
+                <!-- <a href="#">0.1.1-alpha.1</a> -->
                 <!-- 黑暗模式开关 -->
                 <label class="night-day-toggle day">
                     <input type="checkbox" />
